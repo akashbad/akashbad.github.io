@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
+<div class="card {{ page.color-class }}">
+  <div class="card-header">
+    <div class="date-bubble">
+      <div class="date">{{ page.date | date: "%-b %-d" }}</div>
+      <div class="year">{{ page.date | date: "%Y"}}</div>
+    </div>
+    <a class="title" href="{{ post.url }}">{{ page.title }}</a>
+  </div>
+  <div class="card-content">
+    {{ content }}
+  </div>
 </div>
