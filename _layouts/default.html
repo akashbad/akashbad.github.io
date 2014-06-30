@@ -8,37 +8,26 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
-
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+      <div class="header">
+        <a class="brand" href="/">
+          Akash Badshah
+        </a>
+        <div class="header-links">
+          <a href="/about/">About</a>
+          <a class="logo-link twitter" href="http://twitter.com/akashbad"><span></span></a>
+          <a class="logo-link facebook" href="http://facebook.com/akashbad"><span></span></a>
+          <a class="logo-link github" href="http://github.com/akashbad"><span></span></a>
+          <a class="logo-link linkedin" href="http://www.linkedin.com/pub/akash-badshah/62/497/204"><span></span></a>
         </div>
-
+      </div>
+      <div class="container">
+        {{ content }}
+      </div>
     </body>
 </html>
