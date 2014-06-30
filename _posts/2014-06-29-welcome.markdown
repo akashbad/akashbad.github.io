@@ -3,5 +3,5 @@ layout: post
 title:  "Welcome to My Blog!"
 ---
 
-Welcome to my new blog. I'll be writing about projects side projects that I'm working on outside of work or any thoughts I might have about current events. Check out more about me on the [About Page]({{site.baseurl}}about/). Expect some real content soon!
+Welcome to my new blog. I'll be writing about life at a startup, side projects that I'm working on, or any thoughts I might have about current events. Check out more about me on the [About Page]({{site.baseurl}}about/). Expect some real content soon!
 
