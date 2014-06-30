@@ -1,0 +1,5 @@
+name: Akash Badshah
+markdown: redcarpet
+pygments: true
+
+permalink: /:title

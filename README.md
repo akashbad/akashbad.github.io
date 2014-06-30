@@ -1,4 +1,4 @@
 akashbad.github.io
 ==================
 
-Public website for Akash Badshah
+The personal website of Akash Badshah
