@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Introducing MuteMachine!"
-published: false
 color-class: "green"
 ---
 Any user of [The Hype Machine](http://hypem.com) probably knows how awesome it is to get a fresh batch of new music every week from all around the internet. If you're like me you started using the service and never stopped. While the music selection is mostly great, you've probably also noticed times when that one rogue track totally kills your vibe. Maybe its a track that's already been to the top of the charts before, or maybe you just aren't as big a fan of Lana Del Rey's new album as everyone else is. Whatever the reason, we all want the same thing, for the site to know which songs we don't like and just automatically skip to the next one.
