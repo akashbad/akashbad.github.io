@@ -73,4 +73,4 @@ script.textContent = skip_track_code;
 script.parentNode.removeChild(script);
 {% endhighlight %}
 
-Thanks for reading! Throw me an upvote or follow the conversation over at [HackerNews]().
+Thanks for reading! Throw me an upvote or follow the conversation over at [HackerNews](https://news.ycombinator.com/item?id=7966506).
