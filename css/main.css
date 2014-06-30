@@ -70,6 +70,8 @@ img {
 .header-links a {
   position: relative;
   z-index: 1;
+  -webkit-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
   transition: 0.08s ease-in;
 }
 
@@ -113,6 +115,8 @@ img {
   top: 0;
   z-index: -1;
   -webkit-transition: bottom 0.09s ease-in;
+  -moz-transition: bottom 0.09s ease-in;
+  transition: bottom 0.09s ease-in;
 }
 
 .header-links a:hover {
@@ -172,6 +176,8 @@ img {
   top: 0;
   z-index: -1;
   -webkit-transition: bottom 0.09s ease-in;
+  -moz-transition: bottom 0.09s ease-in;
+  transition: bottom 0.09s ease-in;
 }
 
 .card-header:hover {
@@ -190,6 +196,9 @@ img {
   color: white;
   margin: 10px 0px 10px 20px;
   float: left;
+  -webkit-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
+  transition: 0.08s ease-in;
 }
 
 .card-header:hover .date-bubble {
@@ -219,6 +228,9 @@ img {
 }
 .card-header:hover .title {
   color: white;
+  -webkit-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
+  transition: 0.08s ease-in;
 }
 
 .title {
